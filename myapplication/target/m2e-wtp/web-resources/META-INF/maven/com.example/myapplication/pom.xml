@@ -76,6 +76,7 @@
 			<version>9.4.15.v20190215</version>
 		</dependency>
 
+
 	</dependencies>
 
 	<build>
@@ -133,6 +134,11 @@
 				<configuration>
 					<scanIntervalSeconds>2</scanIntervalSeconds>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.google.appengine</groupId>
+				<artifactId>appengine-maven-plugin</artifactId>
+				<version>1.9.72</version>
 			</plugin>
 		</plugins>
 	</build>
