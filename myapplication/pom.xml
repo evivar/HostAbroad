@@ -75,6 +75,13 @@
 			<artifactId>jetty-server</artifactId>
 			<version>9.4.15.v20190215</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.appengine/appengine-api-1.0-sdk -->
+<dependency>
+    <groupId>com.google.appengine</groupId>
+    <artifactId>appengine-api-1.0-sdk</artifactId>
+    <version>1.9.71</version>
+</dependency>
+
 
 	</dependencies>
 
